@@ -65,9 +65,8 @@ Celebal_Internship/
 │   │   ├── plot_4_all_models_increased_filters_val_accuracy.png
 │   │   ├── plot_5_all_models_early_stopping_val_accuracy.png
 │   │   └── plot_6_all_models_data_augmentation_val_accuracy.png
-│   │
-│   └── report/
-│       └── CIFAR10_Project_Report.pdf
+│   
+│   
 │
 └── README.md
 ```
