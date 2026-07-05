@@ -1,7 +1,6 @@
-````markdown
-# Celebal Internship
+# Celebal Technologies Internship
 
-This repository contains my submissions, notebooks, trained models, visualizations, and analysis completed during the Celebal Technologies Internship Program.
+This repository contains my weekly assignments, trained models, visualizations, and notebooks completed during the **Celebal Technologies Internship Program**. Each week focuses on different Machine Learning and Deep Learning concepts, progressing from data analysis and forecasting to computer vision, sequence modeling, and autoencoders.
 
 ---
 
@@ -10,85 +9,79 @@ This repository contains my submissions, notebooks, trained models, visualizatio
 ```text
 Celebal_Internship/
 │
-├── Week1/
-│   └── week1_srishanthdevoju.ipynb
+├── week1_srishanthdevoju.ipynb
 │
-├── Week2/
-│   ├── week2_srishanthdevoju.ipynb
-│   ├── models/
-│   │   ├── arima_model.pkl
-│   │   ├── linear_regression_model.pkl
-│   │   ├── tuned_lasso_regression_model.pkl
-│   │   ├── tuned_ridge_regression_model.pkl
-│   │   └── var_model.pkl
-│   └── plots/
-│       └── (generated visualizations)
+├── week2_srishanthdevoju.ipynb
+├── week2_models/
+│   ├── arima_model.pkl
+│   ├── linear_regression_model.pkl
+│   ├── tuned_lasso_regression_model.pkl
+│   ├── tuned_ridge_regression_model.pkl
+│   └── var_model.pkl
+├── week2_plots/
+│   └── (generated visualizations)
 │
-├── Week3/
-│   ├── week3_srishanthdevoju.ipynb
-│   ├── models/
-│   │   ├── stacking_meta_model.pkl
-│   │   └── standard_scaler.pkl
-│   └── plots/
-│       ├── confusion_matrix.png
-│       ├── correlation_heatmap.png
-│       ├── elbow_method_marked.png
-│       ├── feature_distributions.png
-│       ├── feature_importance.png
-│       ├── gdpp_vs_income.png
-│       ├── outlier_boxplots.png
-│       ├── pca_clusters.png
-│       ├── pca_dbscan.png
-│       ├── pca_hierarchical.png
-│       └── pca_kmedoids.png
+├── week3_srishanthdevoju.ipynb
+├── week3_models/
+│   ├── stacking_meta_model.pkl
+│   └── standard_scaler.pkl
+├── week3_plots/
+│   ├── confusion_matrix.png
+│   ├── correlation_heatmap.png
+│   ├── elbow_method_marked.png
+│   ├── feature_distributions.png
+│   ├── feature_importance.png
+│   ├── gdpp_vs_income.png
+│   ├── outlier_boxplots.png
+│   ├── pca_clusters.png
+│   ├── pca_dbscan.png
+│   ├── pca_hierarchical.png
+│   └── pca_kmedoids.png
 │
-├── Week4/
-│   ├── week4_srishanthdevoju.ipynb
-│   ├── models/
-│   │   ├── cnn_model_v2_final.h5
-│   │   └── aug_cnn_model_final.h5
-│   └── plots/
-│       ├── sampledata.png
-│       ├── plot_ann_train_val_metrics.png
-│       ├── plot_ann_v2_train_val_metrics.png
-│       ├── plot_cnn_train_val_metrics.png
-│       ├── plot_cnn_v2_train_val_metrics.png
-│       ├── plot_cnn_v2_improved_train_val_metrics.png
-│       ├── plot_cnn_v3_20epochs_train_val_metrics.png
-│       ├── plot_cnn_v4_early_stopping_train_val_metrics.png
-│       ├── plot_aug_cnn_train_val_metrics.png
-│       ├── plot_all_models_val_accuracy.png
-│       ├── plot_3_ann_original_vs_increased_layers_vs_cnn.png
-│       ├── plot_4_all_models_increased_filters_val_accuracy.png
-│       ├── plot_5_all_models_early_stopping_val_accuracy.png
-│       └── plot_6_all_models_data_augmentation_val_accuracy.png
+├── week4_srishanthdevoju.ipynb
+├── week4_models/
+│   ├── cnn_model_v2_final.h5
+│   └── aug_cnn_model_final.h5
+├── week4_plots/
+│   ├── sampledata.png
+│   ├── plot_ann_train_val_metrics.png
+│   ├── plot_ann_v2_train_val_metrics.png
+│   ├── plot_cnn_train_val_metrics.png
+│   ├── plot_cnn_v2_train_val_metrics.png
+│   ├── plot_cnn_v2_improved_train_val_metrics.png
+│   ├── plot_cnn_v3_20epochs_train_val_metrics.png
+│   ├── plot_cnn_v4_early_stopping_train_val_metrics.png
+│   ├── plot_aug_cnn_train_val_metrics.png
+│   ├── plot_all_models_val_accuracy.png
+│   ├── plot_3_ann_original_vs_increased_layers_vs_cnn.png
+│   ├── plot_4_all_models_increased_filters_val_accuracy.png
+│   ├── plot_5_all_models_early_stopping_val_accuracy.png
+│   └── plot_6_all_models_data_augmentation_val_accuracy.png
 │
-├── Week5/
-│   ├── week5_srishanthdevoju.ipynb
-│   ├── models/
-│   │   ├── gru_model.keras
-│   │   ├── gru_model2_upgraded.keras
-│   │   ├── lstm_model (1).keras
-│   │   ├── lstm_model2_upgraded.keras
-│   │   ├── rnn_model.keras
-│   │   └── rnn_model2_upgraded.keras
-│   └── plots/
-│       ├── training_accuracy_comparison_original.png
-│       ├── training_accuracy_comparison_upgraded.png
-│       ├── training_loss_comparison_original.png
-│       └── training_loss_comparison_upgraded.png
+├── week5_srishanthdevoju.ipynb
+├── week5_models/
+│   ├── rnn_model.keras
+│   ├── rnn_model2_upgraded.keras
+│   ├── lstm_model (1).keras
+│   ├── lstm_model2_upgraded.keras
+│   ├── gru_model.keras
+│   └── gru_model2_upgraded.keras
+├── week5_plots/
+│   ├── training_accuracy_comparison_original.png
+│   ├── training_accuracy_comparison_upgraded.png
+│   ├── training_loss_comparison_original.png
+│   └── training_loss_comparison_upgraded.png
 │
-├── Week6/
-│   ├── week6_srishanthdevoju.ipynb
-│   ├── models/
-│   │   └── denoising_autoencoder_mnist.keras
-│   └── plots/
-│       ├── bottleneck_feature_maps.png
-│       ├── denoising_at_various_noise_levels.png
-│       ├── denoising_autoencoder_results.png
-│       ├── model.png
-│       ├── original_vs_noisy_images.png
-│       └── training_history.png
+├── week6_srishanthdevoju.ipynb
+├── week6_models/
+│   └── denoising_autoencoder_mnist.keras
+├── week6_plots/
+│   ├── bottleneck_feature_maps.png
+│   ├── denoising_at_various_noise_levels.png
+│   ├── denoising_autoencoder_results.png
+│   ├── model.png
+│   ├── original_vs_noisy_images.png
+│   └── training_history.png
 │
 └── README.md
 ```
@@ -107,17 +100,18 @@ Introduction to Python, Data Analysis, and Exploratory Data Analysis (EDA).
 
 ### Learning Outcomes
 
-- Python fundamentals
-- NumPy and Pandas
-- Data cleaning
+- Python Programming Fundamentals
+- NumPy
+- Pandas
+- Data Cleaning
 - Exploratory Data Analysis
-- Data visualization
+- Data Visualization
 
 ### Outputs
 
 - Data preprocessing
-- Statistical summaries
-- Visual analysis
+- Statistical analysis
+- Exploratory visualizations
 
 ---
 
@@ -143,15 +137,15 @@ Time Series Forecasting and Regression Analysis.
 
 - Forecasting models
 - Regression models
-- Performance evaluation
+- Model evaluation
 - Time series visualizations
 
 ### Key Findings
 
-- Implemented statistical forecasting models.
-- Compared regression techniques.
-- Evaluated models using standard metrics.
-- Visualized forecasting performance.
+- Implemented multiple forecasting techniques.
+- Compared regression algorithms.
+- Evaluated prediction performance using standard metrics.
+- Generated forecasting visualizations.
 
 ---
 
@@ -168,7 +162,7 @@ Country Segmentation using Unsupervised Machine Learning.
 ### Techniques
 
 - Data Preprocessing
-- PCA
+- Principal Component Analysis (PCA)
 - K-Means Clustering
 - DBSCAN
 - Hierarchical Clustering
@@ -176,17 +170,17 @@ Country Segmentation using Unsupervised Machine Learning.
 
 ### Outputs
 
-- Country segmentation
-- Cluster visualizations
-- PCA analysis
+- Cluster analysis
+- PCA visualization
 - Feature importance
+- Country segmentation insights
 
 ### Key Findings
 
-- PCA effectively reduced dimensionality.
+- Reduced dimensionality using PCA.
 - Compared multiple clustering algorithms.
-- Identified meaningful country groups.
-- Generated business insights from clusters.
+- Identified meaningful country clusters.
+- Derived insights from segmented groups.
 
 ---
 
@@ -226,16 +220,16 @@ Image Classification using Artificial Neural Networks (ANN) and Convolutional Ne
 
 - Trained ANN models
 - Trained CNN models
-- Accuracy comparison plots
-- Loss comparison plots
+- Performance comparison plots
+- Training history
 
 ### Key Findings
 
-- CNNs significantly outperformed ANNs.
-- Increasing filters improved accuracy.
-- Additional epochs enhanced learning.
-- Early stopping achieved the best generalization.
-- Data augmentation reduced overfitting but lowered accuracy in this implementation.
+- CNN significantly outperformed ANN.
+- Increasing filters improved feature extraction.
+- More epochs improved model performance.
+- Early stopping provided the best generalization.
+- Data augmentation reduced overfitting but slightly decreased final accuracy.
 
 ---
 
@@ -263,15 +257,15 @@ Sequence Modeling using Recurrent Neural Networks (RNN), Long Short-Term Memory 
 - Trained RNN models
 - Trained LSTM models
 - Trained GRU models
-- Accuracy comparison plots
-- Loss comparison plots
+- Training accuracy comparison
+- Training loss comparison
 
 ### Key Findings
 
-- LSTM effectively captured long-term dependencies.
+- LSTM captured long-term dependencies effectively.
 - GRU achieved competitive performance with fewer parameters.
-- Upgraded architectures converged faster.
-- Comparative analysis highlighted strengths of each recurrent architecture.
+- Upgraded architectures improved convergence and learning stability.
+- Compared the strengths and limitations of recurrent neural network architectures.
 
 ---
 
@@ -292,19 +286,18 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 ### Outputs
 
 - Trained denoising autoencoder
-- Reconstructed images
-- Feature map visualization
+- Image reconstruction results
+- Bottleneck feature visualization
 - Model architecture
 - Training history
 - Performance across multiple noise levels
 
 ### Key Findings
 
-- Successfully reconstructed clean images from noisy inputs.
-- Learned meaningful latent representations.
-- Demonstrated robust denoising across different noise levels.
-- Visualized bottleneck feature maps for model interpretability.
-- Achieved effective image restoration while preserving digit structure.
+- Successfully reconstructed clean handwritten digits from noisy images.
+- Learned compact latent feature representations.
+- Demonstrated robust denoising capability across different noise levels.
+- Visualized bottleneck feature maps for better model interpretability.
 
 ---
 
@@ -314,7 +307,6 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 - NumPy
 - Pandas
 - Matplotlib
-- Seaborn
 - Scikit-learn
 - TensorFlow
 - Keras
@@ -323,18 +315,23 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 
 ---
 
-# Repository Highlights
+# Skills Demonstrated
 
-- Machine Learning
-- Deep Learning
+- Data Analysis
+- Exploratory Data Analysis
 - Time Series Forecasting
 - Regression Analysis
 - Unsupervised Learning
-- Image Classification
-- Sequence Modeling
+- Clustering
+- Principal Component Analysis
+- Artificial Neural Networks
+- Convolutional Neural Networks
+- Recurrent Neural Networks
+- LSTM
+- GRU
 - Autoencoders
-- Data Visualization
 - Model Evaluation
+- Data Visualization
 
 ---
 
@@ -342,5 +339,4 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 
 **Srishanth Devoju**
 
-GitHub: https://github.com/srishanthdevoju
-````
+GitHub: **https://github.com/srishanthdevoju**
