@@ -1,6 +1,6 @@
 # Celebal Technologies Internship
 
-This repository contains my weekly assignments, trained models, visualizations, and notebooks completed during the **Celebal Technologies Internship Program**. Each week focuses on different Machine Learning and Deep Learning concepts, progressing from data analysis and forecasting to computer vision, sequence modeling, and autoencoders.
+This repository contains my weekly assignments, trained models, visualizations, and notebooks completed during the **Celebal Technologies Internship Program**. Each week focuses on different Machine Learning, Deep Learning, and Generative AI concepts, progressing from data analysis and forecasting to computer vision, sequence modeling, autoencoders, and Retrieval-Augmented Generation (RAG).
 
 ---
 
@@ -83,6 +83,8 @@ Celebal_Internship/
 │   ├── original_vs_noisy_images.png
 │   └── training_history.png
 │
+├── week7_srishanthdevoju.ipynb
+│
 └── README.md
 ```
 
@@ -96,22 +98,22 @@ Introduction to Python, Data Analysis, and Exploratory Data Analysis (EDA).
 
 ### Notebook
 
-- `week1_srishanthdevoju.ipynb`
+* `week1_srishanthdevoju.ipynb`
 
 ### Learning Outcomes
 
-- Python Programming Fundamentals
-- NumPy
-- Pandas
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Visualization
+* Python Programming Fundamentals
+* NumPy
+* Pandas
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
 
 ### Outputs
 
-- Data preprocessing
-- Statistical analysis
-- Exploratory visualizations
+* Data preprocessing
+* Statistical analysis
+* Exploratory visualizations
 
 ---
 
@@ -123,29 +125,29 @@ Time Series Forecasting and Regression Analysis.
 
 ### Notebook
 
-- `week2_srishanthdevoju.ipynb`
+* `week2_srishanthdevoju.ipynb`
 
 ### Models
 
-- ARIMA
-- VAR
-- Linear Regression
-- Tuned Ridge Regression
-- Tuned Lasso Regression
+* ARIMA
+* VAR
+* Linear Regression
+* Tuned Ridge Regression
+* Tuned Lasso Regression
 
 ### Outputs
 
-- Forecasting models
-- Regression models
-- Model evaluation
-- Time series visualizations
+* Forecasting models
+* Regression models
+* Model evaluation
+* Time series visualizations
 
 ### Key Findings
 
-- Implemented multiple forecasting techniques.
-- Compared regression algorithms.
-- Evaluated prediction performance using standard metrics.
-- Generated forecasting visualizations.
+* Implemented multiple forecasting techniques.
+* Compared regression algorithms.
+* Evaluated prediction performance using standard metrics.
+* Generated forecasting visualizations.
 
 ---
 
@@ -157,30 +159,30 @@ Country Segmentation using Unsupervised Machine Learning.
 
 ### Notebook
 
-- `week3_srishanthdevoju.ipynb`
+* `week3_srishanthdevoju.ipynb`
 
 ### Techniques
 
-- Data Preprocessing
-- Principal Component Analysis (PCA)
-- K-Means Clustering
-- DBSCAN
-- Hierarchical Clustering
-- K-Medoids
+* Data Preprocessing
+* Principal Component Analysis (PCA)
+* K-Means Clustering
+* DBSCAN
+* Hierarchical Clustering
+* K-Medoids
 
 ### Outputs
 
-- Cluster analysis
-- PCA visualization
-- Feature importance
-- Country segmentation insights
+* Cluster analysis
+* PCA visualization
+* Feature importance
+* Country segmentation insights
 
 ### Key Findings
 
-- Reduced dimensionality using PCA.
-- Compared multiple clustering algorithms.
-- Identified meaningful country clusters.
-- Derived insights from segmented groups.
+* Reduced dimensionality using PCA.
+* Compared multiple clustering algorithms.
+* Identified meaningful country clusters.
+* Derived insights from segmented groups.
 
 ---
 
@@ -192,7 +194,7 @@ Image Classification using Artificial Neural Networks (ANN) and Convolutional Ne
 
 ### Notebook
 
-- `week4_srishanthdevoju.ipynb`
+* `week4_srishanthdevoju.ipynb`
 
 ### Models Implemented
 
@@ -206,30 +208,30 @@ Image Classification using Artificial Neural Networks (ANN) and Convolutional Ne
 
 ### Final Results
 
-| Model | Test Accuracy |
-|--------|--------------:|
-| ANN (Original) | 41.70% |
-| ANN (Increased Layers) | 39.15% |
-| CNN (Original) | 73.01% |
-| CNN (Increased Filters) | 75.37% |
-| CNN (20 Epochs) | 76.31% |
-| CNN (Early Stopping) | **77.92%** |
-| CNN (Data Augmentation) | 65.64% |
+| Model                   | Test Accuracy |
+| ----------------------- | ------------: |
+| ANN (Original)          |        41.70% |
+| ANN (Increased Layers)  |        39.15% |
+| CNN (Original)          |        73.01% |
+| CNN (Increased Filters) |        75.37% |
+| CNN (20 Epochs)         |        76.31% |
+| CNN (Early Stopping)    |    **77.92%** |
+| CNN (Data Augmentation) |        65.64% |
 
 ### Outputs
 
-- Trained ANN models
-- Trained CNN models
-- Performance comparison plots
-- Training history
+* Trained ANN models
+* Trained CNN models
+* Performance comparison plots
+* Training history
 
 ### Key Findings
 
-- CNN significantly outperformed ANN.
-- Increasing filters improved feature extraction.
-- More epochs improved model performance.
-- Early stopping provided the best generalization.
-- Data augmentation reduced overfitting but slightly decreased final accuracy.
+* CNN significantly outperformed ANN.
+* Increasing filters improved feature extraction.
+* More epochs improved model performance.
+* Early stopping provided the best generalization.
+* Data augmentation reduced overfitting but slightly decreased final accuracy.
 
 ---
 
@@ -241,7 +243,7 @@ Sequence Modeling using Recurrent Neural Networks (RNN), Long Short-Term Memory 
 
 ### Notebook
 
-- `week5_srishanthdevoju.ipynb`
+* `week5_srishanthdevoju.ipynb`
 
 ### Models Implemented
 
@@ -254,18 +256,18 @@ Sequence Modeling using Recurrent Neural Networks (RNN), Long Short-Term Memory 
 
 ### Outputs
 
-- Trained RNN models
-- Trained LSTM models
-- Trained GRU models
-- Training accuracy comparison
-- Training loss comparison
+* Trained RNN models
+* Trained LSTM models
+* Trained GRU models
+* Training accuracy comparison
+* Training loss comparison
 
 ### Key Findings
 
-- LSTM captured long-term dependencies effectively.
-- GRU achieved competitive performance with fewer parameters.
-- Upgraded architectures improved convergence and learning stability.
-- Compared the strengths and limitations of recurrent neural network architectures.
+* LSTM captured long-term dependencies effectively.
+* GRU achieved competitive performance with fewer parameters.
+* Upgraded architectures improved convergence and learning stability.
+* Compared the strengths and limitations of recurrent neural network architectures.
 
 ---
 
@@ -277,61 +279,95 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 
 ### Notebook
 
-- `week6_srishanthdevoju.ipynb`
+* `week6_srishanthdevoju.ipynb`
 
 ### Model Implemented
 
-- Convolutional Denoising Autoencoder
+* Convolutional Denoising Autoencoder
 
 ### Outputs
 
-- Trained denoising autoencoder
-- Image reconstruction results
-- Bottleneck feature visualization
-- Model architecture
-- Training history
-- Performance across multiple noise levels
+* Trained denoising autoencoder
+* Image reconstruction results
+* Bottleneck feature visualization
+* Model architecture
+* Training history
+* Performance across multiple noise levels
 
 ### Key Findings
 
-- Successfully reconstructed clean handwritten digits from noisy images.
-- Learned compact latent feature representations.
-- Demonstrated robust denoising capability across different noise levels.
-- Visualized bottleneck feature maps for better model interpretability.
+* Successfully reconstructed clean handwritten digits from noisy images.
+* Learned compact latent feature representations.
+* Demonstrated robust denoising capability across different noise levels.
+* Visualized bottleneck feature maps for better model interpretability.
+
+---
+
+# Week 7
+
+## Topic
+
+Document Question Answering System using Retrieval-Augmented Generation (RAG).
+
+### Notebook
+
+* `week7_srishanthdevoju.ipynb`
+
+### Project Overview
+
+Developed a Retrieval-Augmented Generation (RAG) system that allows users to upload custom documents and ask questions in natural language. The system retrieves the most relevant document chunks using semantic search and leverages a Large Language Model (LLM) to generate accurate, context-aware answers grounded in the uploaded documents.
+
+### Features
+
+* Upload PDF, TXT, and DOCX documents
+* Automatic text extraction and preprocessing
+* Document chunking for efficient retrieval
+* Semantic search using vector embeddings
+* Context-aware question answering
+* Interactive notebook-based interface
+* Source-grounded response generation
+
+### Technologies Used
+
+* LangChain
+* Hugging Face Embeddings
+* Groq API
+* Large Language Models (LLMs)
+
+### Outputs
+
+* Document ingestion pipeline
+* Text chunking and embedding generation
+* Vector database creation
+* Semantic document retrieval
+* Context-aware answer generation
+* Interactive document question-answering system
+
+### Key Findings
+
+* Built an end-to-end Retrieval-Augmented Generation (RAG) pipeline.
+* Improved response accuracy using semantic retrieval before generation.
+* Reduced hallucinations by grounding responses in uploaded documents.
+* Demonstrated practical application of LLMs for document-based question answering.
 
 ---
 
 # Technologies Used
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- TensorFlow
-- Keras
-- Statsmodels
-- Jupyter Notebook
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* TensorFlow
+* Keras
+* Statsmodels
+* LangChain
+* FAISS
+* Hugging Face Embeddings
+* Groq API
+* Jupyter Notebook
 
----
-
-# Skills Demonstrated
-
-- Data Analysis
-- Exploratory Data Analysis
-- Time Series Forecasting
-- Regression Analysis
-- Unsupervised Learning
-- Clustering
-- Principal Component Analysis
-- Artificial Neural Networks
-- Convolutional Neural Networks
-- Recurrent Neural Networks
-- LSTM
-- GRU
-- Autoencoders
-- Model Evaluation
-- Data Visualization
 
 ---
 
@@ -339,4 +375,4 @@ Image Denoising using a Convolutional Denoising Autoencoder on the MNIST Dataset
 
 **Srishanth Devoju**
 
-GitHub: **https://github.com/srishanthdevoju**
+GitHub: https://github.com/srishanthdevoju
