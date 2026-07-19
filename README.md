@@ -85,6 +85,7 @@ Celebal_Internship/
 │
 ├── week7_srishanthdevoju.ipynb
 │
+|__ week8_srishanthdevoju.ipynb
 └── README.md
 ```
 
@@ -349,6 +350,78 @@ Developed a Retrieval-Augmented Generation (RAG) system that allows users to upl
 * Improved response accuracy using semantic retrieval before generation.
 * Reduced hallucinations by grounding responses in uploaded documents.
 * Demonstrated practical application of LLMs for document-based question answering.
+
+---
+
+# Week 8
+
+## Topic
+
+Single-Agent Smart Assistant with Intent Routing and Tool Integration.
+
+### Notebook
+
+* `week8_srishanthdevoju.ipynb`
+
+### Project Overview
+
+Developed a Single-Agent Smart Assistant capable of understanding user queries, identifying user intent, and routing each request to the appropriate tool or response module. The assistant integrates multiple utilities into a single intelligent pipeline and returns structured JSON responses, making it suitable for AI-powered applications, automation workflows, and backend services.
+
+### Problem Statement
+
+Build a **Single-Agent Smart Assistant** that:
+
+- Understands user queries
+- Routes tasks based on intent
+- Uses tools when required
+- Returns structured JSON output
+
+The assistant should handle:
+
+- Math queries → Calculator Tool
+- Keyword extraction → Keyword Tool
+- General queries → Direct response
+
+### Features
+
+* Intent detection and query classification
+* Conditional routing based on user intent
+* Calculator tool for mathematical operations
+* Keyword extraction from text
+* General query handling
+* Structured JSON response generation
+* Basic error handling
+* Logging for debugging and monitoring
+* Modular and extensible architecture
+* Easy integration of additional tools
+
+### Technologies Used
+
+* Python
+* JSON
+* Regular Expressions (Regex)
+* Object-Oriented Programming (OOP)
+
+### Outputs
+
+* Intent classification
+* Query routing pipeline
+* Calculator tool execution
+* Keyword extraction results
+* General query responses
+* Structured JSON outputs
+* Error handling for invalid queries
+* Logging information
+
+### Key Findings
+
+* Built a modular Single-Agent architecture capable of handling multiple categories of user requests.
+* Implemented intent-based routing to dispatch queries to specialized tools.
+* Produced consistent JSON responses suitable for API and backend integration.
+* Demonstrated intelligent tool orchestration through conditional routing.
+* Improved maintainability by separating routing logic from tool implementations.
+* Added logging and error handling to improve reliability and simplify debugging.
+* Designed the assistant to be easily extensible by allowing new tools to be integrated with minimal modifications.
 
 ---
 
